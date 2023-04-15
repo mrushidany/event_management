@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <main className="flex w-full h-screen font-sans flex-col bg-event-black_2">
     <Head><title>Event Management System</title></Head>
-    <div className="bg-hero bg-cover bg-hero_gradient w-full h-auto py-[26px] px-[132px]">
-      <nav className="w-full h-auto flex items-center flex-row justify-between">
+    <div className="bg-hero bg-cover bg-no-repeat w-full h-auto">
+      <nav className="bg-hero_gradient w-full h-auto flex items-center flex-row justify-between py-[26px] px-[132px]">
           <div className="flex flex-row space-x-3">
              <div className="flex flex-col w-auto h-auto gap-y-0">
                 <div className="rounded-[0.2px] transform rotate-[-90deg] bg-blue_gradient w-[2.5px] h-[11px]"></div>
@@ -33,6 +33,9 @@ export default function Home() {
           </ul>
           <button className="w-36 h-12 rounded-[100px] bg-blue_gradient flex items-center justify-center text-event-black_3 font-bold leading-5">Register</button>
       </nav>
+      <div className="w-full h-auto">
+
+      </div>
     </div>
   </main>
   )
