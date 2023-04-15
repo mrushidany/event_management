@@ -1,7 +1,9 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 font-sans bg-event-black_2">
-    
-    </main>
+    <body className="min-h-screen font-sans bg-event-black_2">
+        <main className="flex max-w-[1440px] min-h-screen mx-auto">
+    klklkl
+       </main>
+    </body>
   )
 }
