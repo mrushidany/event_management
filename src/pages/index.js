@@ -11,6 +11,24 @@ export default function Home() {
              </div>
              <div className="w-auto font-semibold text-[28px] leading-7 bg-blue_gradient bg-clip-text" style={{ WebkitTextFillColor: "transparent" }}>ventu</div>
           </div>
+          <ul className="flex flex-row gap-x-10 font-roboto text-base text-event-gray leading-[19px]">
+            <li>
+              <a>Home</a>
+            </li>
+            <li>
+              <a>Speakers</a>
+            </li>
+            <li>
+              <a>Ticket</a>
+            </li>
+            <li>
+              <a>Schedule</a>
+            </li>
+            <li>
+              <a>Contact</a>
+            </li>
+          </ul>
+          <button className="w-36 h-12 rounded-[100px] bg-blue_gradient flex items-center justify-center">Register</button>
       </nav>
     </div>
   </main>
