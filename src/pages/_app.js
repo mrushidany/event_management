@@ -16,7 +16,7 @@ const sarabun = Sarabun({
 })
 
 const roboto = Roboto({
-  weight: ['400', '500', '600', '700'],
+  weight: ['400', '500', '700'],
   style: ['normal', 'italic'],
   subsets: ['latin'],
   variable: '--font-sarabun',
