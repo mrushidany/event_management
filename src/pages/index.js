@@ -1,7 +1,10 @@
+import Head from "next/head";
+
 export default function Home() {
   return (
     <main className="flex w-full h-screen font-sans flex-col bg-event-black_2">
-    <div className="bg-hero w-full h-auto py-[26px] px-[132px]">
+    <div className="bg-hero backdrop-blur-[5px] w-full h-auto py-[26px] px-[132px]">
+    <Head><title>Event Management System</title></Head>
       <nav className="w-full h-auto flex items-center flex-row justify-between">
           <div className="flex flex-row space-x-3">
              <div className="flex flex-col w-auto h-auto gap-y-0">
@@ -13,7 +16,7 @@ export default function Home() {
           </div>
           <ul className="flex flex-row gap-x-10 font-roboto text-base text-event-gray leading-[19px]">
             <li>
-              <a className="">Home</a>
+              <a className=" cursor-pointer">Home</a>
             </li>
             <li>
               <a>Speakers</a>
