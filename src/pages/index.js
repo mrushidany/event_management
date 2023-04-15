@@ -1,11 +1,9 @@
-import Hero from './components/Hero'
-
 export default function Home() {
   return (
-    <body className="min-h-screen font-sans bg-event-black_2">
-      <main className="flex max-w-[1440px] min-h-screen mx-auto">
-        <Hero />
-      </main>
-    </body>
+    <main className="flex w-full h-screen font-sans flex-col bg-event-black_2">
+    <div className="bg-hero w-full h-auto">
+        Hero sect
+    </div>
+  </main>
   )
 }

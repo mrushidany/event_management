@@ -10,9 +10,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'hero' : 'linear-gradient(90deg, rgba(3, 21, 43, 0.6) 0%, rgba(0, 0, 0, 0) 105.07%)',
       },
       fontFamily: {
         sans: ['var(--font-sarabun)', ...fontFamily.sans],
