@@ -10,8 +10,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero' : 'linear-gradient(90deg, rgba(3, 21, 43, 0.6) 0%, rgba(0, 0, 0, 0) 105.07%)',
+        'hero_gradient' : 'linear-gradient(90deg, rgba(3, 21, 43, 0.6) 0%, rgba(0, 0, 0, 0) 105.07%)',
         'blue_gradient' : 'linear-gradient(89.7deg, #00FCE3 0.23%, #00D6FA 99.74%)',
+        'hero' : "url('/images/hero.svg')"
       },
       fontFamily: {
         sans: ['var(--font-sarabun)', ...fontFamily.sans],
