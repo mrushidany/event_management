@@ -32,6 +32,7 @@ module.exports = {
         black_0 : '#AAAAAA',
         black : '#000000',
         black_2 : '#111617',
+        black_3 : '#0F0B10'
       }
     },
   },

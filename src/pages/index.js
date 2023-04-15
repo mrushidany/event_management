@@ -13,7 +13,7 @@ export default function Home() {
           </div>
           <ul className="flex flex-row gap-x-10 font-roboto text-base text-event-gray leading-[19px]">
             <li>
-              <a>Home</a>
+              <a className="">Home</a>
             </li>
             <li>
               <a>Speakers</a>
@@ -28,7 +28,7 @@ export default function Home() {
               <a>Contact</a>
             </li>
           </ul>
-          <button className="w-36 h-12 rounded-[100px] bg-blue_gradient flex items-center justify-center">Register</button>
+          <button className="w-36 h-12 rounded-[100px] bg-blue_gradient flex items-center justify-center text-event-black_3 font-bold leading-5">Register</button>
       </nav>
     </div>
   </main>
