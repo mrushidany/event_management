@@ -20,6 +20,20 @@ module.exports = {
         inter: ['var(--font-inter)', ...fontFamily.sans],
       }
     },
+    colors: {
+      'event' : {
+        white : '#FFFFFF',
+        pale_white : '#FAFAFB',
+        gray : '#B9B9B9',
+        pale : '#D0D0D0',
+        dark_gray : '#A5A6A7',
+        dark : '#0F0B10',
+        light_dark : '#3A3A3A',
+        darker : '#060405',
+        black : '#000000',
+        black_2 : '#111617',
+      }
+    },
   },
   plugins: [],
 }
